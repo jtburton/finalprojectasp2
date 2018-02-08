@@ -1,0 +1,41 @@
+﻿body, html {
+    background: lightgray;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: white;
+    height: 200px;
+    line-height: 200px;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 3px double gray;
+}
+
+#wrapper {
+    min-height: 100%;
+    margin-bottom: -53px;
+}
+
+#footer, #push {
+    height: 50px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#footer {
+    background: white;
+    border-top: 3px double gray;
+}
+
+#logo {
+    font-size: 50px;
+    padding-left: 100px;
+    float: left;
+}
+
+input {
+    vertical-align: middle;
+}

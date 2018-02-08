@@ -1,0 +1,68 @@
+﻿table {
+    margin: 0 auto;
+    position: relative;
+    margin-top: 75px;
+}
+
+table tr td {
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+}
+
+table tr td:nth-child(odd) {
+    width: 300px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+table tr td:nth-child(odd):hover {
+    cursor: pointer;
+}
+
+table tr td:nth-child(1) {
+    background: #ffb84d;
+}
+
+table tr td:nth-child(1):hover {
+    background: #ffc299;
+}
+
+table tr td:nth-child(3) {
+    background: #70db70;
+}
+
+table tr td:nth-child(3):hover {
+    background: #85e085;
+}
+
+table tr td:nth-child(5) {
+    background: #a64dff;
+}
+
+table tr td:nth-child(5):hover {
+    background: #bf80ff;
+}
+
+#searchPatientByName {
+    display: none;
+    margin: 10px;
+}
+
+#formContent {
+    padding: 10px;
+    background: #fff0e6;
+}
+
+#formDescription {
+    background: #fff0e6;
+    margin-top: 2px;
+    height: 100%;
+    color: gray;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#formContent input[type="submit"] {
+    float: right;
+}

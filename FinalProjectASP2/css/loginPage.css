@@ -1,0 +1,37 @@
+﻿#loginForm {
+    background: lightblue;
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 33%;
+    position: relative;
+    left: 33%;
+    top: 50px;
+    min-height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#loginForm table {
+    width: 100%;
+    background: aliceblue;
+    padding: 10px;
+}
+
+#loginForm table tr th {
+    padding-bottom: 25px;
+}
+
+#loginForm table tr td {
+    padding: 5px 0;
+}
+
+#loginForm table tr td input[type="name"] {
+    width: 50%;
+}
+
+#loginForm table tr td:first-child {
+    text-align: right;
+    width: 50%;
+    padding-right: 15px;
+}
